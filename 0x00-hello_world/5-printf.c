@@ -2,7 +2,8 @@
 /**
  * main - Entry point
  *
- * Description: A C program that prints to the stdout through the printf function
+ * Description: A C program that prints to the stdout through the printf
+ * function
  *
  * Return: 0 on success
  */
