@@ -1,0 +1,8 @@
+# gcc compilation flags
+flags
+
+# executable files
+*.out
+
+# script used to generate boiler-plate code for each file
+script.sh
