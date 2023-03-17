@@ -22,7 +22,7 @@ int main(void)
 	if (rem > 5)
 		puts("greater than 5");
 	else if (rem == 0)
-		puts("zero");
+		puts("0");
 	else
 		puts("less than 6 and not 0");
 
