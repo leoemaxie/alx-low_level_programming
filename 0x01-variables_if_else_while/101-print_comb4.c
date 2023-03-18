@@ -22,11 +22,11 @@ int main(void)
 			{
 				if (j >= k)
 					continue;
-		
+
 				putchar(i + 48);
 				putchar(j + 48);
 				putchar(k + 48);
-				
+
 				if ((i + j + k) != 24)
 				{
 					putchar(',');
