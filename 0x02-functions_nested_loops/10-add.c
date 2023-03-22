@@ -4,7 +4,7 @@
  * add - add two numbers
  *
  * @num1: the first integer to be added
- * @nun2: the second integer to be added
+ * @num2: the second integer to be added
  *
  * Return: sum of the two integers
  */
