@@ -1,13 +1,15 @@
-#include <main.h.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet: prints the english alphabets in lowercase to stdout
  *
- * Description: a function that prints the alphabet, in lowercase, followed by a new line
- *
- * Return: 0 on success
+ * Return: Nothing
  */
-int main(void)
+void print_alphabet(void)
 {
-	return (0);
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(i);
+	_putchar('\n');
 }

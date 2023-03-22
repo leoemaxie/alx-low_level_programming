@@ -1,13 +1,19 @@
-#include <main.h.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * main - prints _putchar to stdout
  *
- * Description: program that prints _putchar, followed by a new line
- *
- * Return: 0 on success
+ * Return: 0 on successful completion
  */
-int main(void)
+int main()
 {
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	return (0);
 }
