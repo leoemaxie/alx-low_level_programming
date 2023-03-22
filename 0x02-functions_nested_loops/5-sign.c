@@ -6,7 +6,7 @@
  *
  * @n: the number to be compared
  *
- * Return: 1 if n is greater than zero; 0 if n is zero; -1 if n is
+ * Return: 1 if n is greater than zero, 0 if n is zero, -1 if n is
  * less than zero
  */
 int print_sign(int n)
@@ -19,9 +19,7 @@ int print_sign(int n)
 	{
 		_putchar(46);
 		return (0);
-	} else
-	{
-		_putchar('_');
-		return (-1);
 	}
+	_putchar('_');
+	return (-1);
 }

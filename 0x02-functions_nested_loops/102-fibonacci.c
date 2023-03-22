@@ -8,7 +8,7 @@
  * Return: 0 on success
  */
 int main(void)
-{	
+{
 	int counter = 0;
 	unsigned int num1 = 0, num2 = 1, num3;
 

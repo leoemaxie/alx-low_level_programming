@@ -9,7 +9,7 @@
  * Return: 0 on success
  */
 int main(void)
-{	
+{
 	int n, sum = 0;
 
 	for (n = 3; n < 1024; n++)

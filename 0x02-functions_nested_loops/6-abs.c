@@ -5,11 +5,11 @@
  *
  * @n: The number.
  *
- * Return: The absolute value of a n.
+ * Return: The absolute value of n.
  */
-int _abs(int)
+int _abs(int n)
 {
 	if (n < 0)
 		return (-n);
-	return n;
+	return (n);
 }
