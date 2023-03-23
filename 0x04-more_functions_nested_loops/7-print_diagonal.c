@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_diaginal - Prints a diagonal of a given length. If less than 1, prints
+ * print_diagonal - Prints a diagonal of a given length. If less than 1, prints
  * a newline only.
  *
  * @n: Length of the diagonal.
  *
  * Return: Nothing.
  */
-void print_diaginal(int n)
+void print_diagonal(int n)
 {
 	int i, j;
 
