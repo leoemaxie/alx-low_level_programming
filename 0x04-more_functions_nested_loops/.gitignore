@@ -1,0 +1,8 @@
+# automated scripts
+script.sh
+
+# executable files
+*.out
+
+# gcc compiler flags
+flags
