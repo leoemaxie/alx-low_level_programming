@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_squaree - Prints a square of a given size. If less than 1, prints
+ * print_square - Prints a square of a given size. If less than 1, prints
  * a newline only.
  *
  * @size: Size of the square.
  *
  * Return: Nothing.
  */
-void print_squaree(int size)
+void print_square(int size)
 {
 	int i, j;
 
