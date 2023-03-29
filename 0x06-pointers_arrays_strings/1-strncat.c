@@ -10,7 +10,7 @@
 int _strlen(char *s)
 {
 	int i;
-	
+
 	for (i = 0; s[i] != '\0'; i++)
 		continue;
 	return (i);
@@ -19,7 +19,8 @@ int _strlen(char *s)
 /**
  * _strncat - Concatenates two strings using at most n bytes.
  *
- * @src: String to concatenate with.                        * @dest: String to concatenate to.
+ * @src: String to concatenate with.
+ * @dest: String to concatenate to.
  * @n: size in bytes of src to uee
  *
  * Return: Pointer to the resulting string dest.

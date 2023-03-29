@@ -5,14 +5,17 @@
  * Helper function for cap_string.
  *
  * @c: Character to be checked.
- * 
+ *
  * Return: 1 if c is a delimeter, 0 otherwise.
  */
 int check_delimeter(char c)
 {
 	int i;
-	char delimeter[] = {'\t', '\n', ' ', ',', '.', ';', '(', ')', '!', '{', '}', '?', '"'};
-	
+	char delimeter[] = {
+		'\t', '\n', ' ', ',', '.', ';',
+		'(', ')', '!', '{''}', '?', '"'
+	};
+
 	for (i = 0; delimeter[i] != '\0'; i++)
 	{
 		if (c == delimeter[i])
@@ -23,12 +26,11 @@ int check_delimeter(char c)
 }
 
 /**
- * reverse_array - Reverses the content of an array of integers.
+ * cap_string - Capitaalizes a string.
  *
- * @a: Pointer to the array.
- * @n: Number of elements of the array.
+ * @s: The string.
  *
- * Return: Nothing. 
+ * Return: Nothing.
  */
 char *cap_string(char *s)
 {
@@ -45,5 +47,4 @@ char *cap_string(char *s)
 		}
 	}
 
-	return (s);
-}
+	return (s)}
