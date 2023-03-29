@@ -16,3 +16,5 @@ A series of tasks and exercises aimed at understanding the C programming languag
 
 * Pointers, arrays and strings: An introduction into C pointers. This is housed in the [0x05-pointers_arrays_strings](/0x05-pointers_arrays_strings) directory.	
 
+* More pointers, arrays and strings: Contains advanced C pointers tasks. This is housed in the [0x06-pointers_arrays_strings](/0x06-pointers_arrays_strings) directory.	
+
