@@ -17,7 +17,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	for (i = 0; src[i] != '\0' && bytes <= n; i++)
 	{
-		dest[i] = src[i]; 
+		dest[i] = src[i];	
 		bytes += sizeof(src[i]);
 	}
 
