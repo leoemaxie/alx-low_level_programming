@@ -15,10 +15,10 @@ char *rot13(char *s)
 	{
 		if (s[i] > 'n' || s[i] > 'N')
 		{
-			s[i] = s[i] - 13;
+			s[i] = s[i] + 13;
 			continue;
 		}
-		s[i] = s[i] + 13;
+		s[i] = s[i] - 13;
 	}
 
 	return (s);

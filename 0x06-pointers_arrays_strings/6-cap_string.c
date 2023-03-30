@@ -13,7 +13,7 @@ int check_delimeter(char c)
 	int i;
 	char delimeter[] = {
 		'\t', '\n', ' ', ',', '.', ';',
-		'(', ')', '!', '{''}', '?', '"'
+		'(', ')', '!', '{', '}', '?', '"'
 	};
 
 	for (i = 0; delimeter[i] != '\0'; i++)
@@ -47,4 +47,5 @@ char *cap_string(char *s)
 		}
 	}
 
-	return (s)}
+	return (s);
+}

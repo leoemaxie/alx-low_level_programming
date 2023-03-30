@@ -17,7 +17,7 @@ int _strlen(char *s)
 }
 
 /**
- * _strncat - Concatenates two strings using at most n bytes.
+ * _strncat - Concatenates two strings using at most (n) no of bytes.
  *
  * @src: String to concatenate with.
  * @dest: String to concatenate to.
@@ -27,12 +27,14 @@ int _strlen(char *s)
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, len = _strlen(dest), size = 0;
+	int i;
+	int len = _strlen(dest);
+	int bytes = 0;
 
-	for (i = 0; size < n && src[i] != '\0'; ++i)
+	for (i = 0; bytes < n && src[i] != '\0'; ++i)
 	{
 		dest[len + i] = src[i];
-		size += sizeof(src[i]);
+		bytes += sizeof(src[i]);
 	}
 	return (dest);
 }

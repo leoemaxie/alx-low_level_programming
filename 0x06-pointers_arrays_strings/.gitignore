@@ -1,5 +1,5 @@
-# automated scripts
-script.sh
+# tests
+main.c
 
 # executable files
 *.out
