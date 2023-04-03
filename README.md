@@ -14,7 +14,8 @@ A series of tasks and exercises aimed at understanding the C programming languag
 
 * More Functions, More Nested Loop: More advanced task aimed at having indepth knowledge of topics treated in earlier directories. This is housed in the [0x04-more_functions_nested_loops](/0x04-more_functions_nested_loops) directory.	
 
-* Pointers, arrays and strings: An introduction into C pointers. This is housed in the [0x05-pointers_arrays_strings](/0x05-pointers_arrays_strings) directory.	
+* Pointers, Arrays and Strings: An introduction into C pointers. This is housed in the [0x05-pointers_arrays_strings](/0x05-pointers_arrays_strings) directory.	
 
-* More pointers, arrays and strings: Contains advanced C pointers tasks. This is housed in the [0x06-pointers_arrays_strings](/0x06-pointers_arrays_strings) directory.	
+* More Pointers, Arrays and Strings: Contains advanced C pointers tasks. This is housed in the [0x06-pointers_arrays_strings](/0x06-pointers_arrays_strings) directory.	
 
+* Even More Pointers, Arrays and Strings: Contains more advanced C pointers tasks. This is housed in the [0x07-pointers_arrays_strings](/0x07-pointers_arrays_strings) directory.	
