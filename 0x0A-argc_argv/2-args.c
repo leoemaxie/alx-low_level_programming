@@ -3,7 +3,10 @@
 /**
  * main - Prints all arguments this program receives.
  *
- * Return: Always 0;
+ * @argc: Number of arguments.
+ * @argv: Pointer to the array of arguments.
+ *
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {

@@ -4,7 +4,10 @@
 /**
  * main - Multiplies two numbers and prints the result.
  *
- * Return: 0 if there is no error, 1 otherwise;
+ * @argc: Number of arguments.
+ * @argv: Pointer to the array of arguments.
+ *
+ * Return: 0 if there is no error, 1 otherwise.
  */
 int main(int argc, char *argv[])
 {
