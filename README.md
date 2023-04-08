@@ -18,4 +18,8 @@ A series of tasks and exercises aimed at understanding the C programming languag
 
 * More Pointers, Arrays and Strings: Contains advanced C pointers tasks. This is housed in the [0x06-pointers_arrays_strings](/0x06-pointers_arrays_strings) directory.	
 
-* Even More Pointers, Arrays and Strings: Contains more advanced C pointers tasks. This is housed in the [0x07-pointers_arrays_strings](/0x07-pointers_arrays_strings) directory.	
+* Even More Pointers, Arrays and Strings: Contains more advanced C pointers tasks. This is housed in the [0x07-pointers_arrays_strings](/0x07-pointers_arrays_strings) directory.
+
+* Argc, Argv: An introduction to writing C programs which accepts command line arguments. This is housed in the [0x0A-argc_argv](/0x0A-argc_argv) directory.	
+
+
