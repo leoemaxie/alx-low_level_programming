@@ -13,6 +13,7 @@ char *_strdup(char *str)
 {
 	int i;
 	char *cpy_str = malloc(sizeof(char) * strlen(str));
+
 	if (str == NULL)
 		return (NULL);
 	for (i = 0; str[i] != '\0'; i++)
