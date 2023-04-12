@@ -16,7 +16,7 @@ int main(int ac, char *av[])
     {
         return (1);
     }
-    printf("%s", s);
+    printf("%s\n %lu", s, sizeof(s) * strlen(s));
     free(s);
     return (0);
 }

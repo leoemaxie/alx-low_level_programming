@@ -10,15 +10,15 @@
 char **strtow(char *str)
 {
 	int i, j = 0, k;
-	int len = strlen(str);
-	char **strv = malloc(sizeof(int *) * len - 1);
+	int len = strlen(str)1;
+	char **strv = malloc(sizeof(char *) * len);
 
 	if (str == NULL || str == 0 || strv == NULL)
 		return (NULL);
 
 	for (i = 0; i < len; i++)
 	{
-		strv[i] = malloc(sizeof(char) * len - 1);
+		strv[i] = malloc(sizeof(char) * len);
 		while (str[j] == ' ')
 		{
 			j++; /* skips consecutive spaces, tabs, etc */
