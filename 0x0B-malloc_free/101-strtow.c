@@ -17,7 +17,7 @@ char **strtow(char *str)
 		return (NULL);
 
 	for (i = 0; i < len; i++)
-	{	
+	{
 		strv[i] = malloc(sizeof(char) * len);
 
 		for (k = 0; str[j] != ' '; j++, k++)
