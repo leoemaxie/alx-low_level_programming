@@ -10,7 +10,7 @@
 char **strtow(char *str)
 {
 	int i, j = 0, k;
-	int len = strlen(str) + 1;
+	int len = strlen(str) ;
 	char **strv = malloc(sizeof(int *) * len);
 
 	if (str == NULL || str == 0 || strv == NULL)
