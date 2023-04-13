@@ -27,18 +27,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (str == NULL)
 		return (NULL);
 
-
 	for (i = 0; i < len_s1; i++)
 		str[i] = s1[i];
 	for (i = 0; i <= n; i++)
 	{
 		if (i > len_s2)
 			break;
-<<<<<<< HEAD
-        str[len_s1 + i] = s2[i];
-=======
 		str[len_s1 + i] = s2[i];
->>>>>>> refs/remotes/origin/master
 	}
 	str[len_s1 + i] = '\0';
 
