@@ -18,10 +18,10 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (nmemb == NULL || size == NULL)
 		return (NULL);
 
-	ptr =malloc(area);
+	ptr = malloc(area);
 	if (ptr == NULL)
 		return (NULL);
-	for (i = 0; i < area; i += size)
+	for (i = 0; i < area; i++)
 		ptr[i] = 0;
 	return (ptr);
 }
