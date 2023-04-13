@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * malloc_checked - Allocates memory for an array of number of elements of
+ * _calloc - Allocates memory for an array of number of elements of
  * size bytes each.
  *
  * @nmemb: Number of the array elements.
