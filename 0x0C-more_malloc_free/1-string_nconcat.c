@@ -34,7 +34,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		if (i > len_s2)
 			break;
+<<<<<<< HEAD
         str[len_s1 + i] = s2[i];
+=======
+		str[len_s1 + i] = s2[i];
+>>>>>>> refs/remotes/origin/master
 	}
 	str[len_s1 + i] = '\0';
 
