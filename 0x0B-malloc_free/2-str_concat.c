@@ -19,7 +19,7 @@ char *str_concat(char *s1, char *s2)
 	 * Calculates the size of s1 excluding the null terminator adds it to the
 	 * size of s2 including its null terminator.
 	 */
-	char *str = malloc((sizeof(char) * len_s1) + (sizeof(char) * len_s2));
+	char *str = malloc((sizeof(char) * (len_s1 + len_s2));
 
 	if (str == NULL)
 		return (NULL);

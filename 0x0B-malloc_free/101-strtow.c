@@ -18,7 +18,7 @@ char **strtow(char *str)
 
 	for (i = 0; i < len; i++)
 	{
-		strv[i] = malloc(sizeof(char) * len);
+		strv[i] = malloc(len);
 		while (str[j] == ' ')
 		{
 			j++; /* skips consecutive spaces, tabs, etc */
