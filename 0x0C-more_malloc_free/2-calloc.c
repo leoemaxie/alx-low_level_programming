@@ -11,9 +11,13 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *ptr = nmemb * size != 0 ? malloc(nmemb * size) : NULL;
+	unsigned int i;
+	unsigned int area = nmemb * size;
+	char *ptr = area != 0 ? malloc(area) : NULL;
 
 	if (ptr == NULL)
 		return (NULL);
+	for (i = 0; i < area; i += size)
+		ptr[i] = 0;
 	return (ptr);
 }
