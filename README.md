@@ -27,5 +27,8 @@ A series of tasks and exercises aimed at understanding the C programming languag
 * Malloc, Free: Memory Allocation. Dynamically allocate memory on the heap. This is housed in the [0x0B-malloc_free](/0x0B-malloc_free) directory.	
 
 * More Malloc, Free: Advanced memory allocation. This is housed in the [0x0B-malloc_free](/0x0C-more_malloc_free) directory.	
+* Preprocessor: An overview of C preprocessing, macros and `#include` directive. This is housed in the [0x0D-preprocessor](/0x0D-preprocessor) directory.	
+
+* Structures: Introduction to C structures. This is housed in the [0x0E-structures_typedef](/0x0E-structures_typedef) directory.	
 
 
