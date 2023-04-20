@@ -3,8 +3,7 @@
 /**
  * print_all - Prints any arbitiary number of string with the specified format.
  *
- * @: seperator to print after each string.
- * @n: Number of arguments.
+ * @format: seperator to print after each string.
  *
  * Return: Nothing.
  */
