@@ -31,4 +31,6 @@ A series of tasks and exercises aimed at understanding the C programming languag
 
 * Structures: Introduction to C structures. This is housed in the [0x0E-structures_typedef](/0x0E-structures_typedef) directory.	
 
+* Variadic Function: Overview of functions that accept an arbitiary number of argiments. This is housed in the [0x10-variadic_functions](/0x10-variadic_functions) directory.	
+
 
