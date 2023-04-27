@@ -3,7 +3,7 @@
 /**
  * add_node_end - Adds a new node at the end of a list_t list.
  *
- * @h: Pointer to the head of the list_t list.
+ * @head: Pointer to the head of the list_t list.
  * @str: The string to of the str member of the node.
  *
  * Return: The address of the new element, or NULL if it failed.
@@ -32,6 +32,6 @@ list_t *add_node_end(list_t **head, const char *str)
 			tmp = tmp->next;
 		tmp->next = new;
 	}
-	
+
 	return (new);
 }
