@@ -9,11 +9,11 @@
  */
 size_t list_len(const list_t *h)
 {
-    const list_t *i;
-    size_t n = 0;
-
-    for (i = h; i != NULL; i = i->next)
-        n++;
-
-    return (n);
+	const list_t *i;
+	size_t n = 0;
+	
+	for (i = h; i != NULL; i = i->next)
+		n++;
+	
+	return (n);
 }
