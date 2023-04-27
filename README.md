@@ -30,5 +30,9 @@ A series of tasks and exercises aimed at understanding the C programming languag
 * Preprocessor: An overview of C preprocessing, macros and `#include` directive. This is housed in the [0x0D-preprocessor](/0x0D-preprocessor) directory.	
 
 * Structures: Introduction to C structures. This is housed in the [0x0E-structures_typedef](/0x0E-structures_typedef) directory.	
+* Variadic Function: Overview of functions that accept an arbitiary number of argiments. This is housed in the [0x10-variadic_functions](/0x10-variadic_functions) directory.
 
 * Variadic Function: Overview of functions that accept an arbitiary number of argiments. This is housed in the [0x10-variadic_functions](/0x10-variadic_functions) directory.
+* Singly Linked List: Introduction to data structures in C using Linked List. This is housed in the [0x12-singly_linked_lists](/0x12-singly_linked_lists) directory.
+
+
