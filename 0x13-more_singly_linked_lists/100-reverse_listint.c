@@ -9,14 +9,11 @@
  */
 listint_t *reverse_listint(listint_t **head)
 {
-	unsigned int i = 0;
-	listint_t *node = head;
+	listint_t i = *head;
+	listint_t *node;
 
 	for (; i != index; i++)
 		node = node->next;
 
-	if (node == NULL)
-		return (NULL);
-
-	return (node);
+	return (*head);
 }
