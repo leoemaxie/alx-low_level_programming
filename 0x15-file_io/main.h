@@ -2,8 +2,8 @@
 #define _MAIN_H_
 
 /* includes directives */
-#include <errno.h>
-#include <stdlib.h>
+#include <fcntl.h>
+#include <stdio.h>
 #include <unistd.h>
 
 /* function declarations */
