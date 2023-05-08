@@ -2,7 +2,7 @@
 
 /**
  * die - Terminates the program when an error is encountered and prints
- * the appropriate message to STDERR..
+ * the appropriate message to STDERR.
  *
  * @msg: The error message to print.
  * @name: Name of the argument which caused errors on executing..
@@ -17,6 +17,23 @@ void die(const char *msg, const char *name, int err)
 }
 
 /**
+ * close_fd - Closes a file descriptor and prints an error message to STDERR
+ * when an error is encountered.
+ *
+ * @fd: The file descriptor to close.
+ *
+ * Return: Nothing.
+ */
+void close_fd(int fd)
+{
+	if (close(fd) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %i\n", fd);
+		exit(100);
+	}
+}
+
+/**
  * main - Copies the content of a file to another file.
  *
  * @argc: Number of command line arguments.
@@ -24,10 +41,10 @@ void die(const char *msg, const char *name, int err)
  *
  * Return: 0 on success.
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int file_from, file_to, reads;
-	char buf[1024], str[8];
+	char buf[1024];
 
 	if (argc != 3)
 		die("Usage: cp file_from file_to", "", 97);
@@ -37,7 +54,6 @@ int main (int argc, char *argv[])
 
 	if (file_from == -1)
 		die("Error: Can't read from ", argv[1], 98);
-	
 	if (file_to == -1)
 		die("Error: Can't write to ", argv[2], 99);
 
@@ -54,18 +70,7 @@ int main (int argc, char *argv[])
 			die("Error: Can't write to", argv[2], 99);
 	}
 
-	
-	if (close(file_from) == -1)
-	{
-		sprintf(str, "%d", file_from);
-		die("Error: Can't close fd ", str, 100);
-	}
-
-	if (close(file_to) == -1)
-	{
-		sprintf(str, "%d", file_to);
-		die("Error: Can't close fd ", str, 100);
-	}
-
+	close_fd(file_from);
+	close_fd(file_to);
 	return (0);
 }
