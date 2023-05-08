@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * create_file - Creates a file.
+ * append_text_to_file - Appends text at the end of a file.
  *
- * @filename: Name of the file to create.
- * @text_content: A NULL terminated string to write to the file.
+ * @filename: Name of the file.
+ * @text_content: A NULL terminated string to add to the end of file.
  *
  * Return: 1 on success.
  * -1 on failure. The following scenerios indicates failure:
@@ -12,9 +12,9 @@
  *		filename is NULL.
  *		write fails.
  */
-int create_file(const char *filename, char *text_content)
+int append_text_to_file(const char *filename, char *text_content)
 {
-	int file = filename ? open(filename, O_CREAT | O_TRUNC | O_RDWR, 0600) : -1;
+	int file = filename ? open(filename,  O_RDWR | O_APPEND) : -1;
 
 	if (file == -1)
 		return (-1);
