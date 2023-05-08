@@ -2,8 +2,8 @@
 #define _MAIN_H_
 
 /* includes directives */
-#include <fcntl.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <unistd.h>
 
 /* function declarations */
