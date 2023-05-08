@@ -35,3 +35,7 @@ A series of tasks and exercises aimed at understanding the C programming languag
 * Singly Linked List: Introduction to data structures in C using Linked List. This is housed in the [0x12-singly_linked_lists](/0x12-singly_linked_lists) directory.
 
 * More Singly Linked List: Advanced concepts of Linked List. This is housed in the [0x13-more_singly_linked_lists](/0x13-more_singly_linked_lists) directory.
+
+* Bit Manipulation: Low level manipulation of bits. This is housed in the [0x14-bit_manipulation](/0x14-bit_manipulation) directory.
+
+* File I/O: Introduction to file Input/Output, redirections and system calls. This is housed in the [0x15-file_io](/0x15-file_io) directory.
