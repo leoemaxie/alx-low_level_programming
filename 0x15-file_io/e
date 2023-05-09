@@ -46,8 +46,8 @@ int main(int argc, char *argv[])
 	int file_from, file_to, reads;
 	char buf[1024];
 
-	if (argc != 3)
-		die("Usage: cp file_from file_to", "", 97);
+	if (argc != 2)
+		die("elf_header elf_filename", "", 98);
 
 	file_from = argv[1] ? open(argv[1], O_RDONLY) : -1;
 	file_to = argv[2] ? open(argv[2], O_CREAT | O_TRUNC | O_WRONLY, 0664) : -1;
@@ -60,6 +60,7 @@ int main(int argc, char *argv[])
 	while (1)
 	{
 		reads = read(file_from, &buf, 1024);
+
 		if (reads == 0)
 			break;
 		if (reads == -1)
