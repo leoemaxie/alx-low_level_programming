@@ -5,17 +5,17 @@
  *
  * @s: The string to convert to integer.
  *
- * Return: The integer representation of the string. 0 otherwise.
+ * Return: The integer representation of the string. 0 otherwis.
  */
 int _atoi(char *s)
 {
 	int i = 0;
 	int integer = 0;
-	int has_minus = 1;
+	int minus  = 1;
 
 	if (s[0] == 45)
 	{
-		has_minus = -1;
+		minus = -1;
 		i++;
 	}
 
@@ -28,6 +28,6 @@ int _atoi(char *s)
 		i++;
 	}
 
-	return (integer * has_minus);
+	return (integer * minus);
 }
 

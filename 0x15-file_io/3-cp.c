@@ -5,7 +5,7 @@
  * the appropriate message to STDERR.
  *
  * @msg: The error message to print.
- * @name: Name of the argument which caused errors on executing..
+ * @name: Name of the argument which caused errors on executing.
  * @err: The exit status code.
  *
  * Return: Nothing.
@@ -29,7 +29,7 @@ void close_fd(int fd)
 	if (close(fd) == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %i\n", fd);
-		exit(100);
+		exit(98);
 	}
 }
 
