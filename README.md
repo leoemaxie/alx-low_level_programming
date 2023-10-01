@@ -41,3 +41,5 @@ A series of tasks and exercises aimed at understanding the C programming languag
 * File I/O: Introduction to file Input/Output, redirections and system calls. This is housed in the [0x15-file_io](/0x15-file_io) directory.
 
 * Dynamic Libraries: Creation of dynamic libraries in C. This is housed in the [0x18-dynamic_libraries](/0x18-dynamic_libraries) directory.
+
+* Hash Tables: Implementation of hash tables in C. This is housed in the [0x1A-hash_tabless](/0x1A-hash_tables) directory.
