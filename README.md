@@ -43,3 +43,5 @@ A series of tasks and exercises aimed at understanding the C programming languag
 * Dynamic Libraries: Creation of dynamic libraries in C. This is housed in the [0x18-dynamic_libraries](/0x18-dynamic_libraries) directory.
 
 * Hash Tables: Implementation of hash tables in C. This is housed in the [0x1A-hash_tabless](/0x1A-hash_tables) directory.
+
+* Makefiles: GNU `make` utility. This is housed in the [0x1C-makefiles](/0x1C-makefiles) directory.
