@@ -45,3 +45,6 @@ A series of tasks and exercises aimed at understanding the C programming languag
 * Hash Tables: Implementation of hash tables in C. This is housed in the [0x1A-hash_tabless](/0x1A-hash_tables) directory.
 
 * Makefiles: GNU `make` utility. This is housed in the [0x1C-makefiles](/0x1C-makefiles) directory.
+
+* Search Algortithms: Searching algorithms through various data structures. This
+is housed in [0x1E-search_algorithms](/0x1E-search_algorithms)
